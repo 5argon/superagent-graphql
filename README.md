@@ -1,12 +1,9 @@
-#Superagent Suffix Middleware
-Middleware to add a suffix to superagent request url
-
-##Installation
+#Installation
 ```
 npm install --save superagent-graphql
 ```
 
-##Example
+#Example
 ```Javascript
 var request = require('superagent');
 var ql = require('superagent-graphql');
@@ -25,7 +22,7 @@ var ql = require('superagent-graphql');
 
 
 request
-    .post("/graphql")
+    .post("/graphql") //choose your POST/GET and your endpoint name here
     .use(ql(queryString,queryVars))
     .end((err,res)=>{
         //...
