@@ -1,4 +1,4 @@
-function factory(query, vars) {
+module.exports = function (query, vars) {
         return (request) => {
             const graphBody = { query: query, variables: vars }
             return request
@@ -6,6 +6,3 @@ function factory(query, vars) {
                 .send(graphBody)
         }
     }
-}
-
-module.exports = factory;

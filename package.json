@@ -1,6 +1,6 @@
 {
   "name": "superagent-graphql",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shortcut plugin for making a GraphQL query with SuperAgent",
   "main": "index.js",
   "repository": {
