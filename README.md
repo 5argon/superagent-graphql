@@ -1,9 +1,9 @@
-#Installation
+# Installation
 ```
 npm install --save superagent-graphql
 ```
 
-#Example
+# Example
 ```Javascript
 var request = require('superagent');
 var ql = require('superagent-graphql');
